@@ -1,2 +1,2 @@
 # 100DaysOfCode
-# I, Firdaus, have committed to join the #100DaysOfCode challenge. 
+# I, Obed, have committed to join the #100DaysOfCode challenge. 
