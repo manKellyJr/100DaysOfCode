@@ -10,3 +10,5 @@
 | 004 | T 4 Oct 2022 | [Dictionaries](004) | Today I was doing dictionaries. Dictionaries store data as key-value pairs. A dictionary can contain lists and any other data type |
 | 005 | W 5 Oct 2022 | [User Input and While Loop](005) | I learn't about getting user input and converting the input to the appropriate format when required to. Also storing user input into a dictionary |
 | 006 | T 6 Oct 2022 | [Functions](006) | I learn't about functions. Functions allow programs to be broken down into small parts, each of which does one specific job. A function can be called as many times as you possible, and can be stored in separate files.|
+| 007 | F 7 Oct 2022 | [Classes](006) | I learn't about classes. classes allows code reuse. Using the same classes to instatiate different objects from it|
+
