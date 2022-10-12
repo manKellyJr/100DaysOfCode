@@ -12,6 +12,5 @@
 | 006 | T 6 Oct 2022 | [Functions](006) | I learn't about functions. Functions allow programs to be broken down into small parts, each of which does one specific job. A function can be called as many times as you possible, and can be stored in separate files.|
 | 007 | F 7 Oct 2022 | [Classes](007) | I learn't about classes. classes allows code reuse. Using the same classes to instatiate different objects from it|
 | 008 | S 8 Oct 2022 | [Classes](008) | I tried to build a project today. I was learning how to build a calculator. It seems i need to get acquainted to some methods that am not familiar with. The calcualator was successfully built.|
-
-| 008 | S 8 Oct 2022 | [Classes](008) | I tried to build a project today. I was learning how to build a calculator. It seems i need to get acquainted to some methods that am not familiar with. The calcualator was successfully built.|
+| 009 | S 9 Oct 2022 | [Files and Exceptions](009) | Today I was working with files. Learnt about reading and writing to files|
 
