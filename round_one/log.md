@@ -13,3 +13,5 @@
 | 007 | F 7 Oct 2022 | [Classes](007) | I learn't about classes. classes allows code reuse. Using the same classes to instatiate different objects from it|
 | 008 | S 8 Oct 2022 | [Classes](008) | I tried to build a project today. I was learning how to build a calculator. It seems i need to get acquainted to some methods that am not familiar with. The calcualator was successfully built.|
 
+| 008 | S 8 Oct 2022 | [Classes](008) | I tried to build a project today. I was learning how to build a calculator. It seems i need to get acquainted to some methods that am not familiar with. The calcualator was successfully built.|
+
