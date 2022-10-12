@@ -8,7 +8,7 @@ class Car():
         self.year = year
         self.odometer_reading = 0
 
-    def get_description(self):
+    def get_descriptive_name(self):
         """Return a neatly formated descrriptive name"""
         long_name = str(self.year) + " " + self.make + " " + self.model
         return long_name.title()
@@ -24,9 +24,24 @@ class Car():
         else:
             print("You can't roll back an odometer!")
 
+    def increament_odometer(self, miles):
+        """Add the given amount to the odometer reading"""
+        if miles >= 0:
+            self.odometer_reading += miles
+        else:
+            print("Mileage cannot be incremented with a negative value")
+
 
 my_new_car = Car('audi', 'a4', 2017)
-print(my_new_car.get_description())
+print(my_new_car.get_descriptive_name())
 
 my_new_car.update_odometer(24)
 my_new_car.read_odometer()
+
+my_used_car = Car('subaru', 'outback', 2015)
+print(my_used_car.get_descriptive_name())
+
+my_used_car.update_odometer(23400)
+my_used_car.read_odometer()
+my_used_car.increament_odometer(100)
+my_used_car.read_odometer()
