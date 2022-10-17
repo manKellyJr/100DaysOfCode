@@ -13,4 +13,9 @@
 | 007 | F 7 Oct 2022 | [Classes](007) | I learn't about classes. classes allows code reuse. Using the same classes to instatiate different objects from it|
 | 008 | S 8 Oct 2022 | [Calculator Project](008) | I tried to build a project today. I was learning how to build a calculator. It seems i need to get acquainted to some methods that am not familiar with. The calcualator was successfully built.|
 | 009 | S 9 Oct 2022 | [Files and Exceptions](009) | Today I was working with files. Learnt about reading and writing to files|
+| 010 | M 10 Oct 2022 | [Files and Exceptions](010) | Continued working on files and exceptions |
+| 011 | T 11 Oct 2022 | [Files and Exceptions](011) | Finished learning files and exceptions |
+| 012 | W 12 Oct 2022 | [Regular expressions](012) | Learnt about regular expresions and how to use them to find a keyword in a stinrg of texts |
+| 013 | T 13 Oct 2022 | [Bagels Game](013) | Today I was building a game called Bagels.  In Bagels, a deductive logic game, you must guess a secret three-digit number based on clues. The game offers one of the following hints in response to your guess: “Pico” when your guess has a correct digit in the wrong place, “Fermi” when your guess has a correct digit in the correct place, and “Bagels” if your guess has no correct digits. You have 10 tries to guess the secret number|
+| 014 | F 14 Oct 2022 | [](014) | |
 
