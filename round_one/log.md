@@ -17,5 +17,8 @@
 | 011 | T 11 Oct 2022 | [Files and Exceptions](011) | Finished learning files and exceptions |
 | 012 | W 12 Oct 2022 | [Regular expressions](012) | Learnt about regular expresions and how to use them to find a keyword in a stinrg of texts |
 | 013 | T 13 Oct 2022 | [Bagels Game](013) | Today I was building a game called Bagels.  In Bagels, a deductive logic game, you must guess a secret three-digit number based on clues. The game offers one of the following hints in response to your guess: “Pico” when your guess has a correct digit in the wrong place, “Fermi” when your guess has a correct digit in the correct place, and “Bagels” if your guess has no correct digits. You have 10 tries to guess the secret number|
-| 014 | F 14 Oct 2022 | [](014) | |
+| 014 | F 14 Oct 2022 | [Sanek Game](015) | Today I tried to build a snake game but ran into errors. I leant some functions that I was not aware of. I will try again later|
+| 015 | S 15 Oct 2022 | [Revisited Functions](015) | I Revisited functions and did some of the examples that I neve did. I really needed to grasp the concept of functions|
+| 016 | S 16 Oct 2022 | [Revisited Classes](016) | I am revisiting these topics because I neve fully understood them. But this time I can say that I understand classes|
+| 017 | M 17 Oct 2022 | [](017) | |
 
