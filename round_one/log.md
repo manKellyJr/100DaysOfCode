@@ -20,5 +20,5 @@
 | 014 | F 14 Oct 2022 | [Sanek Game](015) | Today I tried to build a snake game but ran into errors. I leant some functions that I was not aware of. I will try again later|
 | 015 | S 15 Oct 2022 | [Revisited Functions](015) | I Revisited functions and did some of the examples that I neve did. I really needed to grasp the concept of functions|
 | 016 | S 16 Oct 2022 | [Revisited Classes](016) | I am revisiting these topics because I neve fully understood them. But this time I can say that I understand classes|
-| 017 | M 17 Oct 2022 | [](017) | |
+| 017 | M 17 Oct 2022 | [Revisted Files and Exceptions](017) | Leant how to read a text file. For a file to be used it first needs to be opened|
 
