@@ -21,4 +21,6 @@
 | 015 | S 15 Oct 2022 | [Revisited Functions](015) | I Revisited functions and did some of the examples that I neve did. I really needed to grasp the concept of functions|
 | 016 | S 16 Oct 2022 | [Revisited Classes](016) | I am revisiting these topics because I neve fully understood them. But this time I can say that I understand classes|
 | 017 | M 17 Oct 2022 | [Revisted Files and Exceptions](017) | Leant how to read a text file. For a file to be used it first needs to be opened|
+| 018 | T 18 Oct 2022 |   |  |
+| 019 | W 19 Oct 2022 | [Revisted Files and Exceptions 1](019) | Finished working with files. Relent about reading and writing to files |
 
