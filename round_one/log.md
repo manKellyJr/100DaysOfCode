@@ -23,4 +23,5 @@
 | 017 | M 17 Oct 2022 | [Revisted Files and Exceptions](017) | Leant how to read a text file. For a file to be used it first needs to be opened|
 | 018 | T 18 Oct 2022 |   |  |
 | 019 | W 19 Oct 2022 | [Revisted Files and Exceptions 1](019) | Finished working with files. Relent about reading and writing to files |
+| 020 | T 20 Oct 2022 | [Python - Test-driven development Python UnitTests TDD](020) | I learnt about writing tests before writing code. And testing the code feels nice when the test is passed. Amazing ! |
 
