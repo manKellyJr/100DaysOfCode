@@ -24,4 +24,5 @@
 | 018 | T 18 Oct 2022 |   |  |
 | 019 | W 19 Oct 2022 | [Revisted Files and Exceptions 1](019) | Finished working with files. Relent about reading and writing to files |
 | 020 | T 20 Oct 2022 | [Python - Test-driven development Python UnitTests TDD](020) | I learnt about writing tests before writing code. And testing the code feels nice when the test is passed. Amazing ! |
+| 021 | F 21 Oct 2022 | [Python - Test-driven development Python UnitTests TDD](021) |I finished my Test-Driven Dvelopment ALX project today and I also learnt about unit testing |
 
