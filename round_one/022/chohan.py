@@ -68,7 +68,7 @@ while True:  # Main game loop
 
     # Display the bet results:
     if playerWon:
-        print('You won! Tou take', pot, 'mon.')
+        print('You won! You take', pot, 'mon.')
         purse = purse + pot  # Add the pot from player's puerse
         print('The house collects a', pot // 10, 'mon fee.')
         purse = purse - (pot // 10)  # The house fee is 10%
