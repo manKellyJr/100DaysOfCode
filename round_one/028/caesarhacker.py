@@ -10,7 +10,7 @@ print('Caesar Cipher Hacker, by Obed Banda')
 
 # Let the user specify the message to hack.
 print('Enter the encrypted Caesar cipher message to hack.')
-message = print('> ')
+message = input('> ')
 
 # Every possible symbol that can be encrypted/decrypted
 # (This must match the SYMBOLS used when encrypting the message.)
@@ -31,5 +31,9 @@ for key in range(len(SYMBOLS)):  # Loop through every possible key.
 
             # Add decrypted number's symbol to translated:
             translated = translated + symbol
+        else:
+            # Just add the sybols without decrpting:
+            translated = translated + symbol
 
-
+    # Display the key being tested, along with its decrypted text:
+    print('Ke #{}: {}'.format(key, translated))
