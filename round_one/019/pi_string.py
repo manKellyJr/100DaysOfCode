@@ -7,4 +7,4 @@ with open(filename) as file_object:
         pi_string + line.stripr()
 
     print(pi_string[:52] + "...")
-    print
+    print()
