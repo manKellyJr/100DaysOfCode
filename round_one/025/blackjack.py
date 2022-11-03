@@ -17,7 +17,7 @@ BACKSIDE = 'backside'
 
 
 def main():
-    print('''Balckjack by, Obed Banda
+    print('''Blackjack by, Obed Banda
     
     Rules:
     Try to get as close to 21 without going over.
@@ -63,14 +63,14 @@ def main():
             move = getMove(playerHand, money - bet)
 
             # Handle the player actions
-            if move == 'D'
+            if move == 'D':
                 # Player is doubling down, they can increase their bet:
-            additionalBet = getBet(min(bet, (money - bet)))
-            bet += additionalBet
-            print('Bet increase to {}.'.format(bet))
-            print('Bet:', bet)
+                additionalBet = getBet(min(bet, (money - bet)))
+                bet += additionalBet
+                print('Bet increase to {}.'.format(bet))
+                print('Bet:', bet)
 
-            if move in ('D', 'H'):
+            if move in ('H', 'D'):
                 # Hit/double down takes another card.
                 newCard = deck.pop()
                 rank, suit = newCard
@@ -85,10 +85,11 @@ def main():
                     # Stand/doubleing down stops the player's turn
                     break
 
+            # Handle the dealer's actions:
             if getHandValue(dealerHand) > 17:
                 # The delader hits:
                 print("Dealer hits...")
                 dealerHand.append(deck.pop())
                 displayHands(playerHand, dealerHand, False)
 
-                if
+                if getHand
