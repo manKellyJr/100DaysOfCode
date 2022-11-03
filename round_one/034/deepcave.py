@@ -36,5 +36,12 @@ while True:
         leftWidth = leftWidth + 1   # Increase the left side width.
     else:
         pass    # Do nothing; no change in left side width.
-    # Adjust the gap width:
 
+    # Adjust the gap width:
+    diceRoll = random.randint(1, 6)
+    if diceRoll == 1 and gapWidth > 1:
+        leftWidth = leftWidth - 1  # Decrease left side width.
+    elif diceRoll == 2 and leftWidth + gapWidth < WIDTH - 1:
+        leftWidth = leftWidth + 1  # Increase the left side width.
+    else:
+        pass  # Do nothing; no change in left side width.
