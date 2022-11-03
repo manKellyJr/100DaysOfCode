@@ -92,4 +92,22 @@ def main():
                 dealerHand.append(deck.pop())
                 displayHands(playerHand, dealerHand, False)
 
-                if getHand
+                if getHandValue(dealerHand) > 21:
+                    break   # The dealer has busted.
+                input("Press Enter to continue")
+                print('\n\n')
+
+        # Show the final hands:
+        displayHands(playerHand, dealerHand, True)
+
+        playerValue = getHandValue(playerHand)
+        dealerValue = getHandValue(dealerHand)
+        # Handle whethe the player won, lost, or tied:
+        if dealerValue > 21:
+            print('Dealer bursts! You win ${}!'.format(bet))
+            money += bet
+        elif (playerValue > 21) or (playerValue < dealerValue):
+            print('You lost!')
+            money -= bet
+        elif playerValue > dealerValue:
+            print('You won ${}!'.format(bet))
