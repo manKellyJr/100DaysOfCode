@@ -27,5 +27,24 @@ try:
         hDigits = sevseg.getSevSegStr(hours, 2)
         hTopRow, hMiddleRow, hBottomRow = hDigits.splitlines()
 
-        sDigits = sevseg.getSevSegStr(seconds, 2)
+        mDigits = sevseg.getSevSegStr(minutes, 2)
+        mTopRow, mMiddleRow, mBottomRow = mDigits.splitlines()
 
+        sDigits = sevseg.getSevSegStr(seconds, 2)
+        sTopRow, sMiddleRow, sBottomRow = sDigits.splitlines()
+
+        # Display the digits:
+        print(hTopRow    + '      ' + mTopRow    + '       ' + sTopRow)
+        print(hMiddleRow + '   *  ' + mMiddleRow + '   *   ' + sMiddleRow)
+        print(hBottomRow + '   *  ' + mBottomRow + '   *   ' + sBottomRow)
+        print()
+        print('Press Ctrl-C to quit')
+
+        # Keep looping until the second changes:
+        while True:
+            time.sleep(0.01)
+            if time.localtime().tm_sec != currentTime.tm_sec:
+                break
+except KeyboardInterrupt:
+    print('Digital Clock, by Obed Banda')
+    sys.exit()  # Quit whe Ctrl-C is pressed
