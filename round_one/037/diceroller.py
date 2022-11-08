@@ -35,3 +35,4 @@ while True: # Main program loop:
 
         # Get the number of dice. (The "3" in "3d6+1"
         numberOfDice = diceStr[:dIndex]
+
