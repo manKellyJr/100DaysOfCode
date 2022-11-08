@@ -7,7 +7,7 @@ Tags: short, nodule"""
 """A labeled seven-segment display, with each segment labeled A to G: 
   __A__
  |     |    Each digit in a seven-segment display:
- F     B     __    __  __        __  __  __   __   __
+ F     B     __    __  __        __   __  __   __   __
  |__G__|    |  | | __| __| |__| |__  |__    | |__| |__|
  |     |    |__| | |__ __|    |  __| |__|   | |__|  __|
  E     C
@@ -33,7 +33,7 @@ def getSevSegStr(number, minWidth=0):
             rows[0] += ' '
             rows[1] += ' __ '
             rows[2] += ' '
-        elif numeral == '0.':  # Render the decimal point.
+        elif numeral == '0':  # Render the decimal point.
             rows[0] += ' __ '
             rows[1] += '|  |'
             rows[2] += '|__|'
@@ -69,7 +69,7 @@ def getSevSegStr(number, minWidth=0):
             rows[0] += ' __ '
             rows[1] += '|__| '
             rows[2] += '|__|'
-        elif numeral == '8':  # Render the 9.
+        elif numeral == '9':  # Render the 9.
             rows[0] += ' __ '
             rows[1] += '|__| '
             rows[2] += ' __|'
