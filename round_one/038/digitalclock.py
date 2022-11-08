@@ -34,9 +34,9 @@ try:
         sTopRow, sMiddleRow, sBottomRow = sDigits.splitlines()
 
         # Display the digits:
-        print(hTopRow    + '      ' + mTopRow    + '       ' + sTopRow)
-        print(hMiddleRow + '   *  ' + mMiddleRow + '   *   ' + sMiddleRow)
-        print(hBottomRow + '   *  ' + mBottomRow + '   *   ' + sBottomRow)
+        print(hTopRow    + '        ' + mTopRow    + '        ' + sTopRow)
+        print(hMiddleRow + '   *   ' + mMiddleRow + '   *   ' + sMiddleRow)
+        print(hBottomRow + '   *   ' + mBottomRow + '   *   ' + sBottomRow)
         print()
         print('Press Ctrl-C to quit')
 
